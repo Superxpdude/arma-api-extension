@@ -1,0 +1,20 @@
+name = "SXP Arma API"
+prefix = "sxp_arma_api"
+author = "Superxpdude"
+files = [
+	"mod.cpp",
+	"README.md",
+	"LICENSE.md",
+]
+
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip sxp_arma_api{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
+
+show_output = true

@@ -1,0 +1,14 @@
+name = "SXP Arma API";
+//picture = "file.paa";
+actionName = "Github";
+action = "https://github.com/Superxpdude/arma-api-extension";
+description = "SXP Arma API";
+//logoSmall = "file.paa";
+//logo = "file.paa";
+//logoOver = "file.paa";
+tooltip = "SXP Arma API";
+tooltipOwned = "SXP Arma API";
+overview = "A Python API for Arma";
+author = "Superxpdude";
+hideName = 0;
+hidePicture = 0;
