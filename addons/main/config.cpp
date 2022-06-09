@@ -6,10 +6,10 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {};
+		requiredAddons[] = {"PY3_Pythia"};
 		author = MOD_AUTHOR;
 		url = MOD_URL;
-		version = VERSION; 
+		version = VERSION;
 		versionStr = QUOTE(VERSION_STR);
 		versionAr[] = {VERSION_AR};
 	};
