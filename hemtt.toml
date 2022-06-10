@@ -5,7 +5,7 @@ files = [
 	"mod.cpp",
 	"README.md",
 	"LICENSE.md",
-	"python_code/*"
+	"python_code"
 ]
 
 key_name = "{{prefix}}_{{version}}"
