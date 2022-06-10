@@ -14,3 +14,5 @@ class CfgPatches {
 		versionAr[] = {VERSION_AR};
 	};
 };
+
+#include "CfgFunctions.hpp"

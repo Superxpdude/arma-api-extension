@@ -2,7 +2,17 @@ from typing import List
 import requests
 import threading
 import configparser
-import os
+
+
+def check_config() -> bool:
+	config = configparser.ConfigParser()
+	try:
+		config.read('userconfig/sxp_arma_api.ini')
+		api_key = config.get("SXP_ARMA_API", "api_key")
+		api_server = config.get("SXP_ARMA_API", "api_server")
+		return True
+	except:
+		return False
 
 
 def get_config() -> configparser.ConfigParser:

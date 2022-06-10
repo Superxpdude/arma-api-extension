@@ -2,5 +2,11 @@
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
 	"python.formatting.provider": "yapf",
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"sqflint.ignoredVariables": [
+		"cba_missionTime",
+		"py3_fnc_callExtension",
+		"sxp_arma_api_fnc_main"
+	],
+	"sqf.enableCBA": true
 }
