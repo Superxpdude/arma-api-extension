@@ -5,7 +5,8 @@ files = [
 	"mod.cpp",
 	"README.md",
 	"LICENSE.md",
-	"python_code"
+	"python_code",
+	"sxp_arma_api.ini"
 ]
 
 key_name = "{{prefix}}_{{version}}"
